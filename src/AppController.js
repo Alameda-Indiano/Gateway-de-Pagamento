@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import { Routes } from './routes/Routes.js';
 
 class AppController {
 
@@ -20,7 +21,7 @@ class AppController {
     };
 
     routes() {
-        //this.express.use('/route', controllers)
+        this.express.use(Routes.CartsRoutes)
     };
 
 };
