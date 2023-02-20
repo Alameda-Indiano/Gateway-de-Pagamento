@@ -1,5 +1,9 @@
+import 'dotenv/config';
+import './DataBase/index.js'
+
 import express from 'express';
 import cors from 'cors';
+
 import { Routes } from './routes/Routes.js';
 
 class AppController {
