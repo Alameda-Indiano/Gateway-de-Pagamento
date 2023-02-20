@@ -1,0 +1,5 @@
+{
+    "expecMap": {
+        "js": "sucrase-node"
+    }
+}
