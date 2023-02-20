@@ -26,6 +26,7 @@ class AppController {
 
     routes() {
         this.express.use(Routes.CartsRoutes)
+        this.express.use(Routes.TransactionRoutes)
     };
 
 };
